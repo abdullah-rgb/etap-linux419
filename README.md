@@ -23,7 +23,7 @@ default_image="/boot/initramfs-linux419.img"
 fallback_image="/boot/initramfs-linux419-fallback.img"' > /etc/mkinitcpio.d/linux419.preset
 ###########################################################################################
 
-sudo mkinitcpio -p linux419
+sudo mkinitcpio -p linux419 # mkinitcpio package version 28
 
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
@@ -64,7 +64,7 @@ default_image="/boot/initramfs-linux419.img"
 fallback_image="/boot/initramfs-linux419-fallback.img"' > /etc/mkinitcpio.d/linux419.preset
 ###########################################################################################
 
-sudo mkinitcpio -p linux419
+sudo mkinitcpio -p linux419 # mkinitcpio paketinin versiyonu 28
 
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
