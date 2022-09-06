@@ -7,7 +7,7 @@ git clone https://github.com/abdullah-rgb/etap-linux419 ~/etap-linux419
 
 cd ~/etap-linux419
 
-make -jN menuconfig # For other configuration (Optional)
+make -jN menuconfig # For other configurations (Optional)
 make -jN
 make -jN modules
 sudo make -jN modules_install
