@@ -39,6 +39,8 @@ Kernel compilation ArchWiki: https://wiki.archlinux.org/title/Kernel/Traditional
 You can use **downgrade** script to downgrade package version.
 * AUR: https://aur.archlinux.org/packages/downgrade
 
+### Kernel Source: https://kernel.org
+
 # Türkçe: Vestel 14MB24A Linux kerneli. Kernel sürümü: 4.19.257
 
 ## Kullanımı:
@@ -79,3 +81,5 @@ Kernel derlemesi için ArchWiki sayfası: https://wiki.archlinux.org/title/Kerne
 
 Paket sürümlerini düşürmek için **downgrade** betiğini kullanabilirsiniz.
 * AUR: https://aur.archlinux.org/packages/downgrade
+
+### Çekirdeğin alındığı yer: https://kernel.org
