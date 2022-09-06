@@ -36,7 +36,7 @@ Kernel compilation ArchWiki: https://wiki.archlinux.org/title/Kernel/Traditional
 * mkinitcpio package Version: 28
 * kmod package Version: 28
 
-You can use *downgrade* script to downgrade package version.
+You can use **downgrade** script to downgrade package version.
 * AUR: https://aur.archlinux.org/packages/downgrade
 
 # Türkçe: Vestel 14MB24A Linux kerneli. Kernel sürümü: 4.19.257
@@ -77,5 +77,5 @@ Kernel derlemesi için ArchWiki sayfası: https://wiki.archlinux.org/title/Kerne
 * mkinitcpio paketinin Versiyonu: 28
 * kmod paketinin Versiyonu: 28
 
-Paket sürümlerini düşürmek için *downgrade* paketini kullanabilirsiniz.
+Paket sürümlerini düşürmek için **downgrade** betiğini kullanabilirsiniz.
 * AUR: https://aur.archlinux.org/packages/downgrade
