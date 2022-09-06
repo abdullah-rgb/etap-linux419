@@ -13,7 +13,7 @@ make -jN modules
 sudo make -jN modules_install
 make bzImage
 
-sudo cp -v arch/x86/boot/bzImage /boot/vmlinuz-linux419            
+sudo cp -v arch/x86/boot/bzImage /boot/vmlinuz-linux419
 
 ###########################################################################################
 sudo echo 'ALL_kver="/boot/vmlinuz-linux419"
