@@ -11,6 +11,21 @@ make -jN menuconfig # For other configuration (Optional)
 make -jN
 make -jN modules
 sudo make -jN modules_install
+make bzImage
+
+sudo cp -v arch/x86/boot/bzImage /boot/vmlinuz-linux419            
+
+###########################################################################################
+sudo echo 'ALL_kver="/boot/vmlinuz-linux419"
+...
+default_image="/boot/initramfs-linux419.img"
+...
+fallback_image="/boot/initramfs-linux419-fallback.img"' > /etc/mkinitcpio.d/linux419.preset
+###########################################################################################
+
+sudo mkinitcpio -p linux419
+
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 * N = CPU Thread
@@ -37,6 +52,21 @@ make -jN menuconfig # Ekstra ayar yapılmak istenirse (Opsiyonel)
 make -jN
 make -jN modules
 sudo make -jN modules_install
+make bzImage
+
+sudo cp -v arch/x86/boot/bzImage /boot/vmlinuz-linux419
+
+###########################################################################################
+sudo echo 'ALL_kver="/boot/vmlinuz-linux419"
+...
+default_image="/boot/initramfs-linux419.img"
+...
+fallback_image="/boot/initramfs-linux419-fallback.img"' > /etc/mkinitcpio.d/linux419.preset
+###########################################################################################
+
+sudo mkinitcpio -p linux419
+
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 * N = CPU Thread sayısı
