@@ -25,7 +25,7 @@ fallback_image="/boot/initramfs-linux419-fallback.img"' > /etc/mkinitcpio.d/linu
 
 sudo mkinitcpio -p linux419 # mkinitcpio package version 28
 
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 * N = CPU Thread
@@ -68,7 +68,7 @@ fallback_image="/boot/initramfs-linux419-fallback.img"' > /etc/mkinitcpio.d/linu
 
 sudo mkinitcpio -p linux419 # mkinitcpio paketinin versiyonu 28
 
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 * N = CPU Thread sayısı
