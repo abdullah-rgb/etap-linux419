@@ -1,5 +1,11 @@
 # Vestel 14MB24A Linux kernel. Version: 4.19.257
 
+## Pre requirements:
+
+```shell
+yay -S base base-devel bc
+```
+
 ## Usage:
 
 ```shell
@@ -42,6 +48,12 @@ You can use **downgrade** script to downgrade package version.
 ### Kernel Source: https://kernel.org
 
 # Türkçe: Vestel 14MB24A Linux kerneli. Kernel sürümü: 4.19.257
+
+## Ön gereksinimler:
+
+```shell
+yay -S base base-devel bc
+```
 
 ## Kullanımı:
 
