@@ -3,7 +3,7 @@
 ## Pre requirements:
 
 ```shell
-sudo pacman -S base base-devel bc
+sudo pacman -S base base-devel bc inetutils
 ```
 
 ## Usage:
@@ -52,7 +52,7 @@ You can use **downgrade** script to downgrade package version.
 ## Ön gereksinimler:
 
 ```shell
-sudo pacman -S base base-devel bc
+sudo pacman -S base base-devel bc inetutils
 ```
 
 ## Kullanımı:
