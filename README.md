@@ -3,7 +3,7 @@
 ## Pre requirements:
 
 ```shell
-yay -S base base-devel bc
+sudo pacman -S base base-devel bc
 ```
 
 ## Usage:
@@ -52,7 +52,7 @@ You can use **downgrade** script to downgrade package version.
 ## Ön gereksinimler:
 
 ```shell
-yay -S base base-devel bc
+sudo pacman -S base base-devel bc
 ```
 
 ## Kullanımı:
