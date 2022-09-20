@@ -22,11 +22,20 @@ make bzImage
 sudo cp -v arch/x86/boot/bzImage /boot/vmlinuz-linux419
 
 ###########################################################################################
-sudo echo 'ALL_kver="/boot/vmlinuz-linux419"
-...
+sudo echo '# mkinitcpio preset file for the 'linux419' package
+
+ALL_config="/etc/mkinitcpio.conf"
+ALL_kver="/boot/vmlinuz-linux419"
+
+PRESETS=('default' 'fallback')
+
+#default_config="/etc/mkinitcpio.conf"
 default_image="/boot/initramfs-linux419.img"
-...
-fallback_image="/boot/initramfs-linux419-fallback.img"' > /etc/mkinitcpio.d/linux419.preset
+#default_options=""
+
+#fallback_config="/etc/mkinitcpio.conf"
+fallback_image="/boot/initramfs-linux419-fallback.img"
+fallback_options="-S autodetect"' > /etc/mkinitcpio.d/linux419.preset
 ###########################################################################################
 
 sudo mkinitcpio -p linux419 # mkinitcpio package version 28
